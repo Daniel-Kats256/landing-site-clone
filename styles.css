@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+background-color: rgb(36, 2, 41);
+    display: flex;
+}
+.sidebar{
+    height: 100%;
+    width: 25%;
+   
+    border-right: 1px solid #ccc;
+}
+.sidebar div{
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    padding: 5px;
+}
+.sidebar > div:nth-child(1){
+    height: 80px;
+}
+.sidebar > div:nth-child(1) div{
+    width: 20px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: white;
+}
+.list a{
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+} 
+.list > div{
+    padding: 10px;
+    height: 25px;
+    display: flex;
+}
+.list > div span{
+    width: 20px;
+    height: 20px;
+}
+.list div a:nth-child(2){
+    margin-left: 35px;
+}
+.explore, .trip, .flight, .bus {
+    border-top: 1px solid #cccc;
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.travel, .bus, .pack, .things, .car, .stay, .sign{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.top{
+    height: 60px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.top div{
+    height: 30px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top > div:nth-child(2){
+    margin-left: auto;
+    justify-content: right;
+    padding-right: 15px;
+}
+.top > div:nth-child(3){
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.top span{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.top a{
+    text-decoration: none;
+    color: white;
+}
+.para{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.para h2{
+    color: white;
+    margin-left: 60px;
+    font-size: 35px;
+}
+.rounds{
+    height: 40px;
+    width: 55%;
+    margin-left: 60px;
+    display: flex;
+}
+.rounds div{
+    flex-grow: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.box{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    height: 40px;
+    width: 80%;
+    margin-left: 55px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: rgb(73, 73, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 > div{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 70%;
+    flex-grow: 1;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: rgb(238, 199, 199);
+    font-size: 12px;
+}
+.box1 .ebb{
+    background-color: white;
+    height: 17px;
+    width: 105px;
+    border-radius: 4px;
+    border: 1px solid #3a3737;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+}
+.box1 > div:nth-child(4){
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+.box1 > div:nth-child(4) > div{
+    height: 60%;
+    flex-grow: 1;
+    padding-left: 7px;
+}
+.box1 > div:nth-child(4) > div:nth-child(2){
+    border-left: 1px solid #3a3737;
+
+}
+.box1 > div:nth-child(1), .box1 > div:nth-child(3){
+    width: 150px;
+}
+.box2{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin-top: -8px;
+    background-image: linear-gradient(95deg, rgb(236, 0, 91), rgb(105, 0, 70));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.title{
+    height: 120px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+.title p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.cities{
+    height: 170px;
+    width: 90%;
+    margin-left: 60px;
+}
+.cities > div{
+    height: 40%;
+    width: 90%; 
+    margin: 5px;
+    display: flex;
+}
+.cities > div > div{
+    height: 100%;
+    width: 40%;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+}
+.cities > div > div > img{
+    width: 50%;
+    height: 100%;
+}
+.cities > div > div >p{
+    font-size: 10px;
+    padding: 6px;
+    font-weight: bolder;
+}
+.cities > div > div > p > span{
+    color: grey;
+    font-size: 10px;
+}
